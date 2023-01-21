@@ -1,0 +1,115 @@
+/* Todos los elementos HTML usarán la fuente "Open Sans", sans-serif */
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* El elemento body sin margen y sin relleno */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* El elemento header tendrá una imagen de fondo */
+
+header {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.image {
+    background-color: white;
+    padding: 2%;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+}
+
+#contenedor {
+    display: grid;
+    grid-template-areas: "area1 area1 area1 area1 area1"
+        "area1 area1 area1 area1 area1"
+        "area2 area2 area2 area2 area2"
+        "area3 area4 area5 area6 area7";
+        grid-gap: 10px;
+        margin: auto;
+}
+
+
+#titleh1 {
+    grid-area: area2;
+    padding-top: 200px;
+}
+
+#parrafo {
+    grid-area: area3;
+}
+
+#img1 {
+    grid-area: area4;
+
+}
+#img2 {
+    grid-area: area5;
+
+}
+#img3 {
+    grid-area: area6;
+
+}
+#img4 {
+    grid-area: area7;
+
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#seccionimagenmain {
+    display: grid;
+    grid-template-areas: "area1 area2 area3 area4 area5";
+    grid-auto-columns:min-content;
+    grid-gap: 20px;
+}
+#image1 {
+    grid-area: area1;
+
+}
+#image2 {
+    grid-area: area2;
+
+}
+#image3 {
+    grid-area: area3;
+
+}
+#image4 {
+    grid-area: area4;
+
+}
+#image5 {
+    grid-area: area5;
+
+}
+.tarjeta{
+    margin: 0 auto;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 5%;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+    text-align: center;
+}
+main {
+    margin-bottom: 3%;
+}
