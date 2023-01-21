@@ -77,7 +77,7 @@ nav ul {
     grid-template-areas: 'area1 area1 area1 area1'
                          'area2 area2 area3 area3'
                          'area4 area4 area5 area5';
-    
+    column-gap: 2%;
 } 
 
 #seccioncontactenos h2 {
