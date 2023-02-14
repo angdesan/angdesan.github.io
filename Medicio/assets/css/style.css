@@ -259,7 +259,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #3fbbc0;
+  color: #25a33a;
 }
 
 .navbar .dropdown ul {
@@ -463,7 +463,7 @@ h6 {
 }
 
 #hero .container {
-  text-align: center;
+  /* text-align: center; */
   background: rgba(255, 255, 255, 0.9);
   padding-top: 30px;
   padding-bottom: 30px;
@@ -479,7 +479,7 @@ h6 {
 }
 
 #hero h2 {
-  color: #2f2f2f;
+  color: #010101;
   margin-bottom: 20px;
   font-size: 36px;
   font-weight: 700;
@@ -568,7 +568,7 @@ h6 {
   transition: 0.5s;
   line-height: 1;
   color: #fff;
-  background: #3fbbc0;
+  background: #25a33a;
 }
 
 #hero .btn-get-started:hover {
@@ -637,7 +637,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #3fbbc0;
+  background: #25a33a;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -735,7 +735,7 @@ section {
 }
 
 .featured-services .icon-box:hover::before {
-  background: #3fbbc0;
+  background: #25a33a;
   top: 0;
   border-radius: 0px;
 }
@@ -747,7 +747,7 @@ section {
 .featured-services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #3fbbc0;
+  color: #25a33a;
   transition: all 0.3s ease-in-out;
 }
 
@@ -807,7 +807,7 @@ section {
 
 .cta .cta-btn:hover {
   background: #fff;
-  color: #3fbbc0;
+  color: #25a33a;
 }
 
 /*--------------------------------------------------------------
@@ -830,7 +830,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #3fbbc0;
+  color: #25a33a;
 }
 
 .about .content p:last-child {
@@ -899,7 +899,7 @@ section {
 .features .icon-box i {
   font-size: 48px;
   float: left;
-  color: #3fbbc0;
+  color: #25a33a;
 }
 
 .features .icon-box p {
@@ -933,7 +933,7 @@ section {
   background: #fff;
   border-radius: 50%;
   transition: 0.5s;
-  color: #3fbbc0;
+  color: #25a33a;
   overflow: hidden;
   box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
 }
@@ -970,7 +970,7 @@ section {
   display: block;
   width: 50px;
   height: 2px;
-  background: #3fbbc0;
+  background:  #25a33a;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -1106,16 +1106,16 @@ section {
 }
 
 .departments .nav-link:hover h4 {
-  color: #3fbbc0;
+  color:  #25a33a;
 }
 
 .departments .nav-link.active {
   background: #f7fcfc;
-  border-color: #3fbbc0;
+  border-color:  #25a33a;
 }
 
 .departments .nav-link.active h4 {
-  color: #3fbbc0;
+  color:  #25a33a;
 }
 
 .departments .tab-pane.active {
@@ -1566,7 +1566,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #3fbbc0;
+  color: #25a33a;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #c5ebec;
@@ -1654,7 +1654,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #3fbbc0;
+  background: #25a33a;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1663,7 +1663,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #65c9cd;
+  background: #25a33a;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1723,7 +1723,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #3fbbc0;
+  background: #25a33a;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1828,4 +1828,19 @@ section {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInLeft {
+  animation-name: slideInLeft;
 }
